@@ -24,6 +24,22 @@ Linux terminal (GitBash) commands
 =========
 
 Задание 
-1) Отправить http запрос на сервер.
-http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000 - curl http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000
+1) Отправить http запрос на сервер. http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000
+$curl http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000
 2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+$touch script1.sh
+$vim script1.sh
+
+	#!/bin/bash
+	#Homework1
+	cd foldername
+	mkdir dir_1 dir_2 dir_3
+	cd dir_1
+	touch file1.txt file2.txt file3.txt file4.json file5.json
+	mkdir folder1 folder2 folder3
+	ls -la
+	mv file1.txt file4.json folder1/
+
+$chmod +x ./script1.sh
+$./script1.sh
+

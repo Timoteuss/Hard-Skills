@@ -1,7 +1,7 @@
  -- Вывести все поля и все строки.
  select * from students;
  -- Вывести всех студентов в таблице
- select name from students;
+ select * from students;
  -- Вывести только Id пользователей
  select id from students;
  -- Вывести только имя пользователей

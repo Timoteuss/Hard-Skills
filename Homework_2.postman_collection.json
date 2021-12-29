@@ -23,6 +23,9 @@
 							"pm.test(\"В body приходит правильный string\", () => {\r",
 							"    pm.expect(responseBody).to.be.a('string');\r",
 							"})\r",
+							"pm.test(\"В body приходит правильный string\", () => {\r",
+							"    pm.response.to.have.body(\"This is the first responce from server!\")\r",
+							"});\r",
 							"\r",
 							"console.log(typeof responseBody)"
 						],

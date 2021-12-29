@@ -31,23 +31,23 @@
  -- Вывести пользователей которые были созданы 2021-07-12 00:00:00 и у которых в имени есть цифра 8
  select * from students where created_on='2021-07-12 00:00:00' and name like '%8%';
  -- Вывести пользователя у которых id равен 110
- select * from students where id='110';
+ select * from students where id=110;
  -- Вывести пользователя у которых id равен 153
- select * from students where id='153';
+ select * from students where id=153;
  -- Вывести пользователя у которых id больше 140
- select * from students where id>'140';
+ select * from students where id>140;
  -- Вывести пользователя у которых id меньше 130
- select * from students where id<'130';
+ select * from students where id<130;
  -- Вывести пользователя у которых id меньше 127 или больше 188
- select * from students where id<'127' or id>'188';
+ select * from students where id<127 or id>188;
  -- Вывести пользователя у которых id меньше либо равно 137
- select * from students where id<='137';
+ select * from students where id<=137;
  -- Вывести пользователя у которых id больше либо равно 137
- select * from students where id>='137';
+ select * from students where id>=137;
  -- Вывести пользователя у которых id больше 180 но меньше 190
- select * from students where id>'180' and id<'190';
+ select * from students where id>180 and id<190;
  -- Вывести пользователя у которых id между 180 и 190
- select * from students where id between '180' and '190';
+ select * from students where id between 180 and 190;
  -- Вывести пользователей где password равен 12333, 1m313, 123313
  select * from students where password in ('12333', '1m313', '123313');
  -- Вывести пользователей где created_on равен 2020-10-03 00:00:00, 2021-05-19 00:00:00, 2021-03-26 00:00:00

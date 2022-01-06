@@ -1,5 +1,5 @@
 GitHub. HW_2
-1. На локальном репозитории сделать ветки для:
+1. РќР° Р»РѕРєР°Р»СЊРЅРѕРј СЂРµРїРѕР·РёС‚РѕСЂРёРё СЃРґРµР»Р°С‚СЊ РІРµС‚РєРё РґР»СЏ:
 - Postman - git branch Postman
 - Jmeter - git branch Jmeter
 - CheckLists - git branch Check_Lists
@@ -8,7 +8,7 @@ GitHub. HW_2
 - Charles - git branch Charles 
 - Mobile testing - git branch Mobile_testing 
 
-2. Запушить все ветки на внешний репозиторий
+2. Р—Р°РїСѓС€РёС‚СЊ РІСЃРµ РІРµС‚РєРё РЅР° РІРЅРµС€РЅРёР№ СЂРµРїРѕР·РёС‚РѕСЂРёР№
 git branch
 git checkout Bug_Reports - git push -u origin Bug_Reports - password
 git checkout Charles - git push -u origin Charles - password
@@ -17,28 +17,28 @@ git checkout Jmeter - git push -u origin Jmeter - password
 git checkout Mobile_testing - git push -u origin Mobile_testing - password
 git checkout Postman - git push -u origin Postman - password
 git checkout SQL - git push -u origin SQL - password
-(или как я потом узнал - git push origin -all -u)
+(РёР»Рё РєР°Рє СЏ РїРѕС‚РѕРј СѓР·РЅР°Р» - git push origin -all -u)
 
-3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+3. Р’ РІРµС‚РєРµ Bag Reports СЃРґРµР»Р°С‚СЊ С‚РµРєСЃС‚РѕРІС‹Р№ РґРѕРєСѓРјРµРЅС‚ СЃРѕ СЃС‚СЂСѓРєС‚СѓСЂРѕР№ Р±Р°Рі СЂРµРїРѕСЂС‚Р°
 git checkout Bug_Reports - touch bug_report_1.txt - vim bug_report_1.txt - i - text - Esc - :wq
 
-4. Запушить структуру багрепорта на внешний репозиторий
+4. Р—Р°РїСѓС€РёС‚СЊ СЃС‚СЂСѓРєС‚СѓСЂСѓ Р±Р°РіСЂРµРїРѕСЂС‚Р° РЅР° РІРЅРµС€РЅРёР№ СЂРµРїРѕР·РёС‚РѕСЂРёР№
 git status - git add . - git commit -m "Create the bug_report_1.txt" - git push - password 
 
-5. Вмержить ветку Bag Reports в Main
+5. Р’РјРµСЂР¶РёС‚СЊ РІРµС‚РєСѓ Bag Reports РІ Main
 git checkout main - git merge Bug_Reports
 
-6. Запушить main на внешний репозиторий.
+6. Р—Р°РїСѓС€РёС‚СЊ main РЅР° РІРЅРµС€РЅРёР№ СЂРµРїРѕР·РёС‚РѕСЂРёР№.
 git status - git push - password
 
-7. В ветке CheckLists набросать структуру чек листа.
+7. Р’ РІРµС‚РєРµ CheckLists РЅР°Р±СЂРѕСЃР°С‚СЊ СЃС‚СЂСѓРєС‚СѓСЂСѓ С‡РµРє Р»РёСЃС‚Р°.
 git checkout Check_Lists - touch check-list1.xls - vim check-list1.xls - i - text - Esc - :wq
 
-8. Запушить структуру на внешний репозиторий
+8. Р—Р°РїСѓС€РёС‚СЊ СЃС‚СЂСѓРєС‚СѓСЂСѓ РЅР° РІРЅРµС€РЅРёР№ СЂРµРїРѕР·РёС‚РѕСЂРёР№
 git add . - git commit -m "Create check-list1.xls" - git push
 
-9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+9. РќР° РІРЅРµС€РЅРµРј СЂРµРїРѕР·РёС‚РѕСЂРёРё СЃРґРµР»Р°С‚СЊ Pull Request РІРµС‚РєРё CheckLists РІ main
 "Compare & pull request" - "Create pull request" - "Merge pull request" - "Confirm merge"
 
-10. Синхронизировать Внешнюю и Локальную ветки Main
+10. РЎРёРЅС…СЂРѕРЅРёР·РёСЂРѕРІР°С‚СЊ Р’РЅРµС€РЅСЋСЋ Рё Р›РѕРєР°Р»СЊРЅСѓСЋ РІРµС‚РєРё Main
 git checkout main - git fetch - password - git pull - password

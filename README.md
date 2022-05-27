@@ -1,3 +1,4 @@
+![Screenshot_1](https://user-images.githubusercontent.com/95185784/170686279-c6902be7-16b2-4cdc-9210-0f030eb4c341.jpg)
 # Hard-Skills
 
 # В рамках курса были изучены следующие команды:
